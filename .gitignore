@@ -1,0 +1,10 @@
+.idea
+node_modules
+dist
+logs
+.DS_Store
+.vscode
+.env.local
+.env.*.local
+inspect
+.hlcli
