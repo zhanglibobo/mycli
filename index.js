@@ -27,8 +27,8 @@ program.command('new <name>')
     })
   })
 program.command('run')
-  .description('运行项目')
-  .action(() => {
+  .description('运行项目') // 运行命令的提示文本
+  .action(() => { // 执行命令的动作
     // shell.exec('npm run dev')
     // spwan启动子进程的输出流和错误流 输出到主进程上 方便我们查看运行信息
     let cp = spawn('npm',['run','dev'])
